@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Get In the Zone - SB19</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Raleway", sans-serif
+        }
+
+        body,
+        html {
+            height: 100%;
+            line-height: 1.8;
+        }
+
+        /* Full height image header */
+        .bgimg-1 {
+            background-position: center;
+            background-size: cover;
+            background-image: url("https://lh3.googleusercontent.com/9IzGbNB2lZKwTVJJKmynEa1_YYpJ4AM__QPkaGagKwvdPgnP2suBL9-ypwLRUqSGQUuWRYiQMKiuwNo=w2880-h1200-p-l90-rj");
+            /* Replace with the URL of the SB19 image */
+            min-height: 100%;
+        }
+
+        .w3-bar .w3-button {
+            padding: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-card" id="myNavbar">
+            <a href="#home" class="w3-bar-item w3-button w3-wide">SB19</a>
+            <!-- Right-sided navbar links -->
+            <div class="w3-right w3-hide-small">
+                <a href="#about" class="w3-bar-item w3-button">ABOUT SB19</a>
+                <a href="#members" class="w3-bar-item w3-button"><i class="fa fa-users"></i> MEMBERS</a>
+                <a href="#discography" class="w3-bar-item w3-button"><i class="fa fa-music"></i> DISCOGRAPHY</a>
+                <a href="#events" class="w3-bar-item w3-button"><i class="fa fa-calendar"></i> EVENTS</a>
+                <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+            </div>
+            <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+                onclick="w3_open()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large"
+        style="display:none" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close
+            ×</a>
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT SB19</a>
+        <a href="#members" onclick="w3_close()" class="w3-bar-item w3-button">MEMBERS</a>
+        <a href="#discography" onclick="w3_close()" class="w3-bar-item w3-button">DISCOGRAPHY</a>
+        <a href="#events" onclick="w3_close()" class="w3-bar-item w3-button">EVENTS</a>
+        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+    </nav>
+
+    <!-- Header with full-height image -->
+    <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home"
+        style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <div class="w3-text-white" style="padding: 48px; padding-top: 250px; text-align: center;">
+            <span class="w3-jumbo w3-hide-small">Get in the zone</span><br>
+            <span class="w3-large" style="color: black;">Learn all about your favorite Filipino boy band.</span>
+            <p><a href="#about"
+                    class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off" style="border-radius: 20px;">Explore
+                    More</a></p>
+        </div>
+        <div class="w3-text-grey w3-large" style="padding: 24px 48px;">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-youtube w3-hover-opacity"></i>
+        </div>
+    </header>
+
+
+    <!-- About SB19 Section -->
+    <div class="w3-container" style="padding:128px 16px" id="about">
+        <h3 class="w3-center">ABOUT SB19</h3>
+        <p class="w3-center w3-large">Know more about SB19</p>
+        <div class="w3-row-padding w3-center" style="margin-top:64px">
+            <div class="w3-quarter">
+                <i class="fa fa-microphone w3-margin-bottom w3-jumbo w3-center"></i>
+                <p class="w3-large">Talented Filipino Boy Band</p>
+                <p>SB19 is a sensational Filipino boy band known for their incredible talent,
+                    captivating performances, and meaningful advocacy for mental health.
+                    They have garnered a massive following and are celebrated as one of the most
+                    beloved and successful acts in the Philippines.</p>
+            </div>
+            <div class="w3-quarter">
+                <i class="fa fa-music w3-margin-bottom w3-jumbo"></i>
+                <p class="w3-large">Hits After Hits</p>
+                <p> a testament to the remarkable success of the talented Filipino boy band, SB19.
+                    With each new release, they continue to deliver chart-topping songs that leave a
+                    lasting impact on their fans and the music industry. From catchy melodies to
+                    powerful lyrics, SB19 consistently impresses with their musical prowess and
+                    genuine passion for their craft. </p>
+            </div>
+            <div class="w3-quarter">
+                <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+                <p class="w3-large">Loved by Millions</p>
+                <p>a testament to the incredible journey of SB19, the Filipino boy band that
+                    has touched the hearts of millions worldwide. With their unparalleled talent,
+                    infectious charm, and heartfelt performances, SB19 has garnered a massive and
+                    devoted fanbase known as "A'TIN."</p>
+            </div>
+            <div class="w3-quarter">
+                <i class="fa fa-users w3-margin-bottom w3-jumbo"></i>
+                <p class="w3-large">Passionate Fans</p>
+                <p>SB19's success goes hand in hand with the unwavering support of their passionate fans,
+                    lovingly known as "A'TIN." These dedicated fans have been the driving force behind the
+                    boy band's rise to fame, fiercely promoting and defending their music. Through social media,
+                    fan art, and fan-made projects, A'TIN constantly expresses their adoration for SB19, making
+                    them a powerful and united community.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SB19 Members Section -->
+    <div class="w3-container w3-light-grey" style="padding:10px 10px;" id="members">
+        <h3 class="w3-center">SB19 MEMBERS</h3>
+        <p class="w3-center w3-large">Meet the talented members of SB19</p>
+        <div class="w3-row-padding w3-grayscale"
+            style="margin-top:64px; display: flex; flex-wrap: wrap; justify-content: center;">
+            <div class="w3-col l2 m30 w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="https://i.redd.it/2glk7xh7xll61.png" alt="Member 1"
+                        style="width:100%; height:200px; object-fit: cover;">
+                    <div class="w3-container">
+                        <h3>Josh Cullen Santos - (Josh)</h3>
+                        <p class="w3-opacity">Lead Rapper & Sub-vocalist</p>
+                        <p>He is the lead rapper and sub-vocalist of the Filipino boy band SB19 managed under 1Z
+                            Entertainment. </p>
+                        <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i>
+                                Contact</button></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add details for other SB19 members here -->
+            <!-- Member 2 -->
+            <div class="w3-col l2 m30 w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="https://static.wixstatic.com/media/9a3bdb_245f16d8818349028fbb6222ca697e12~mv2.jpg/v1/fill/w_640,h_828,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9a3bdb_245f16d8818349028fbb6222ca697e12~mv2.jpg"
+                        alt="Member 2" style="width:100%; height:200px; object-fit: cover;">
+                    <div class="w3-container">
+                        <h3>John Paulo Nase - (Pablo)</h3>
+                        <p class="w3-opacity">Leader, Main Rapper & Vocalist</p>
+                        <p>He is the leader, vocalist, main rapper, chief songwriter and arranger of the Filipino boy
+                            band SB19 managed under 1Z Entertainment. </p>
+                        <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i>
+                                Contact</button></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Member 3 -->
+            <div class="w3-col l2 m30 w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="https://i1.sndcdn.com/artworks-XNIvgPKxsEcLYQbn-xMzftg-t500x500.jpg" alt="Member 3"
+                        style="width:100%; height:200px; object-fit: cover;">
+                    <div class="w3-container">
+                        <h3>Stellvester Ajero - (Stell)</h3>
+                        <p class="w3-opacity">Main Rapper & Lead Dancer</p>
+                        <p>He is the main vocalist, lead dancer and main choreographer of the Filipino boy band SB19
+                            managed under 1Z Entertainment.</p>
+                        <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i>
+                                Contact</button></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Member 4 -->
+            <div class="w3-col l2 m30 w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="https://pbs.twimg.com/media/FNp4eVMUYAcNcco.jpg:large" alt="Member 4"
+                        style="width:100%; height:200px; object-fit: cover;">
+                    <div class="w3-container">
+                        <h3>Felip Jhon Suson - (Ken)</h3>
+                        <p class="w3-opacity">Main Dancer & Lead Vocalist</p>
+                        <p>He is the main........... of the Filipino boy band SB19 managed under 1Z Entertainment.</p>
+                        <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i>
+                                Contact</button></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Member 5 -->
+            <div class="w3-col l2 m30 w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="https://villagepipol.com/wp-content/uploads/2022/05/SB19-JUSTIN-PARALLEL-UNIVERSE-819x1024.jpg"
+                        alt="Member 5" style="width:100%; height:200px; object-fit: cover;">
+                    <div class="w3-container">
+                        <h3>Justin De Dios - (Justin)</h3>
+                        <p class="w3-opacity">Main visual, Sub-vocalist & creative director</p>
+                        <p>He is the main ............. of the Filipino boy band SB19 managed under 1Z Entertainment.
+                        </p>
+                        <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i>
+                                Contact</button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SB19 Discography Section -->
+    <div class="w3-container" style="padding:128px 16px" id="discography">
+        <h3 class="w3-center">SB19 DISCOGRAPHY</h3>
+        <p class="w3-center w3-large">Discover SB19's music journey</p>
+        <!-- Add details of SB19's discography here -->
+        <div class="w3-row-padding" style="margin-top:64px">
+            <!-- Album 1 -->
+            <div class="w3-col l4 m6">
+                <img src="album1_cover.jpg" style="width:100%" alt="Album 1">
+                <h4></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <a href="album1_songs.html" class="w3-button w3-black">View Songs</a>
+            </div>
+            <!-- Album 2 -->
+            <div class="w3-col l4 m6">
+                <img src="album2_cover.jpg" style="width:100%" alt="Album 2">
+                <h4>Album 2 Title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <a href="album2_songs.html" class="w3-button w3-black">View Songs</a>
+            </div>
+            <!-- Album 3 -->
+            <div class="w3-col l4 m6">
+                <img src="album3_cover.jpg" style="width:100%" alt="Album 3">
+                <h4>Album 3 Title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <a href="album3_songs.html" class="w3-button w3-black">View Songs</a>
+            </div>
+            <!-- Add more albums here -->
+        </div>
+    </div>
+
+    <!-- SB19 Events Section -->
+    <div class="w3-container w3-light-grey" style="padding:128px 16px" id="events">
+        <h3 class="w3-center">SB19 EVENTS</h3>
+        <p class="w3-center w3-large">Stay updated with SB19's upcoming events</p>
+        <!-- Add details of upcoming SB19 events here -->
+    </div>
+
+    <!-- Contact Section -->
+    <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+        <h3 class="w3-center">CONTACT</h3>
+        <p class="w3-center w3-large">Get in touch with SB19</p>
+        <div style="margin-top:48px">
+            <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Manila, Philippines</p>
+            <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: contact@sb19.com</p>
+            <br>
+            <form action="/action_page.php" target="_blank">
+                <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+                <p>
+                    <button class="w3-button w3-black" type="submit">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-youtube w3-hover-opacity"></i>
+        </div>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
+                class="w3-hover-text-green">w3.css</a></p>
+    </footer>
+
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+
+        // Toggle between showing and hiding the sidebar when clicking the menu icon
+        var mySidebar = document.getElementById("mySidebar");
+
+        function w3_open() {
+            if (mySidebar.style.display === 'block') {
+                mySidebar.style.display = 'none';
+            } else {
+                mySidebar.style.display = 'block';
+            }
+        }
+
+        // Close the sidebar with the close button
+        function w3_close() {
+            mySidebar.style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>

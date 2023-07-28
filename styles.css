@@ -1,0 +1,181 @@
+/* Reset some default styles */
+html,
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #fff;
+    display: block;
+    padding: 8px 16px;
+    transition: background-color 0.2s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('https://d1ef7ke0x2i9g8.cloudfront.net/manila/Five-Times-SB19-Shattered-the-Stereotype-of-Male-Fashion.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.hero-content {
+    text-align: center;
+    color: #000000;
+}
+
+/* Main content styles */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog-post {
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.blog-content {
+    width: 60%;
+    padding-right: 20px;
+}
+
+.blog-image {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.blog-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-sb19,
+.members,
+.discography {
+    background-color: #f9f9f9;
+}
+
+.about-sb19 h2,
+.members h2,
+.discography h2 {
+    margin-bottom: 1rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #001440;
+    color: #fff;
+    text-align: center;
+    padding: 0.2rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Previous styles... */
+
+/* Menu styles */
+.menu-toggle {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: -200px;
+    bottom: 0;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    transition: left 0.3s ease;
+}
+
+.menu.active {
+    left: 0;
+}
+
+/* Adjust the content container to avoid overlapping with the menu */
+main {
+    margin-left: 220px;
+}
+
+/* Responsive layout for small screens */
+@media screen and (max-width: 600px) {
+    .menu {
+        width: 100%;
+        left: -100%;
+    }
+
+    .menu.active {
+        left: 0;
+    }
+
+    main {
+        margin-left: 0;
+    }
+}
